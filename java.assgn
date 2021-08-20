@@ -1,0 +1,92 @@
+a)
+
+|| Java program to print reverse.
+||of words in a string.
+
+import Java. io.*;
+import Java.until.*;
+import Java.lang.*;
+
+Class GFG
+{
+Static string words reverse
+(stringstr)
+{
+int I=str. length ()-1;
+int start, end =i+1;
+string result="";
+
+while(i>= 0)
+{
+if (str.char at(1)==")
+{
+star =i+1
+while (start != end)
+result 1=" ;
+end= I
+}
+i--;
+}
+start  =0
+while (start ! = end)
+result+= str.char at (start ++);
+return result;
+}
+
+
+Public static void main
+(string [] args).
+{
+string str="JAVA SKILLS";
+System.out.print(word reverse (str));
+}
+}
+
+
+
+
+b)
+
+Class Demo
+{
+Public static void main (string [] args)
+{
+float 1tunne 1=340;
+float 1tunne 1=160;
+float total length=1train +1tunne 1;
+System.out.print/n ("total length="+total length);
+//Speed=45*(5118)
+double speed=12.5;
+System.out.print/n("speed="+speed);
+double timetaken = total length/ speed;
+System.out.print/n("time taken="+time taken);
+}
+}
+
+
+Output:- total length=500.0
+             Speed=12.5
+             Time taken=40.0
+
+
+
+c)
+  
+
+Package calender
+// Create a date format object by passing the date pattern.
+//Pass the date string to date format parse method.
+
+
+Public class string date demo
+{
+Public static void main (string [] args)
+{
+The row parse exception
+{
+Simple date format add=new simple date format
+("dd-mm-yyyy");
+String date="18-08-2021";
+System.out. print/n(add.parse (date));
+}
+}
