@@ -1,0 +1,105 @@
+
+Package com. Traning;
+Public class JPR24{
+Public static void main (string[]args){
+//TODO auto-generated method stub
+Design d = new design ();
+d.team();
+Development d1= new development ();
+d1. Team();
+Account a=new account ();
+a.team();
+
+Sales s=new sales ();
+S.team ();
+Testing t= new testing ();
+T.team();
+}
+// Super class company
+Class company
+{
+String product="calculator";
+int teamcount;
+String tleadername;
+Void assignproject ()
+{
+System.out.println("our product is"+product);
+}
+}
+/*Single inheritance
+*Super class company
+*Child class design
+*/
+Class design extends company
+{
+String tleadername="shivraj";
+Void team ()
+{
+Team count= 50;
+Assignproject ();
+System.out.println("team leader of department development is"+tleadername);
+}
+}
+/*hierarchical inheritance
+*Super class company
+*Child class development
+*/
+Class development extends company
+{
+String tleadername="ranjit";
+Void team ()
+{
+Team count= 50;
+Assignproject ();
+System.out.println("team leader of department development is"+tleadername);
+}
+}
+
+/*Multilevel inheritance
+*First super class company
+*Second super class company
+*Child class account
+*/
+Class account extends development
+{
+
+String tleadername="karan";
+Void team ()
+{
+Team count= 50;
+Assignproject ();
+System.out.println("team leader of department development is"+tleadername);
+}
+}
+
+/* Single inheritance
+*Super class company
+*Child class sales
+*/
+Class sales extends company
+{
+
+String tleadername="vishal";
+Void team ()
+{
+Team count= 50;
+Assignproject ();
+System.out.println("team leader of department development is"+tleadername);
+}
+}
+/* Multilevel inheritance
+*First super class company
+*Second super class sales
+*Child class testing
+*/
+Class tleadername="pooja";
+Void team ()
+{
+Team count= 50;
+Assignproject ();
+System.out.println("team leader of department development is"+tleadername);
+}
+}
+
+
+
