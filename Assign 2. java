@@ -1,0 +1,62 @@
+
+Package com. Google;
+/*
+Author: Amruta sawant
+Code for generate ID card of employees
+**/
+Abstract class employee {
+// Fields for employee
+int idno;
+  String name;  
+  String company;
+  String dept; 
+  String edu;
+Long phone;
+String email;
+//Parameterized constructor
+Employee(int idno, string name, string company, string dept, string edu, long phone, string email){
+
+This. company= company;
+This. dept= dept;
+This. edu= edu;
+This. email= emailt;
+This. idno= idno;
+This. name= name;
+This. phone= phone;
+}
+Abstract public void idcard ();
+}
+ Class id extends employee {
+Id(int idno, string name, string company, string dept, string edu, long phone, string email){
+}
+//Abstract method implementaction
+@override
+Public void idcard (){
+System.out.println("************************");
+System.out.println("company");
+System.out.println ("************************");
+System.out.println("name:"+name); System.out.println("id:"+idno); System.out.println("dept:"+dept); System.out.println("edu:"+edu);
+System.out.println("phone:"+phone); System.out.println("email:"+email);
+System.out.println("************************");
+}
+}
+
+Public class assign 2{
+Public static void main (string []args){
+Id i1= new id(102,"om patil", "wipro limited corporation","sales","BTech cs, 1205566," "om321@gmail. com");
+i1. Idcard ();
+}// Main method ends
+}// Assign 2 ends 
+//output
+/*
+************************
+Wipro limited corporation
+************************
+Id: 102: om patil
+Dept: sales
+Edu: BTech cs
+Phone: 1205566
+Email: om321@gmail.com
+************************
+**/.
+
